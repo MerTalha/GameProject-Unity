@@ -2,6 +2,7 @@ using UnityEngine;
 
 public abstract class SingletonMonobehaviour<T> : MonoBehaviour where T:MonoBehaviour
 {
+    //Oyuna baþlandýðý zaman tek bir Player game objesinin olmasýný saðlayan kod
     private static T instance;
     public static T Instance
     {
