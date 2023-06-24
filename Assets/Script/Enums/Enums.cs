@@ -17,7 +17,7 @@ public enum Direction
 public enum ItemType
 {
     Seed,
-    Commmodity,
+    Commodity,
     Watering_tool,
     Hoeing_tool,
     Chopping_tool,
@@ -25,6 +25,7 @@ public enum ItemType
     Reaping_tool,
     Collecting_tool,
     Reapable_scenary,
+    Furniture,
     none,
     count
 }
