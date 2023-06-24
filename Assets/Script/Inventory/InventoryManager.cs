@@ -18,7 +18,7 @@ public class InventoryManager : SingletonMonobehaviour<InventoryManager>
     {
         itemDetailsDictionary = new Dictionary<int, ItemDetails>();
 
-        foreach(ItemDetails itemDetails in itemList.ItemDetails)
+        foreach(ItemDetails itemDetails in itemList.itemDetails)
         {
             itemDetailsDictionary.Add(itemDetails.itemCode, itemDetails);
         }
